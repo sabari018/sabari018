@@ -1,5 +1,5 @@
 name: copying file
-  hosts: all
+  hosts: webservers 
   tasks:
     - name: Copying file from one server to another
       copy:
